@@ -59,8 +59,8 @@ export default function App() {
           />
 
           <Pressable style={styles.button}>
-                <Text style={styles.text}>Reportar</Text>
-              </Pressable>
+            <Text style={styles.text}>Reportar</Text>
+          </Pressable>
         <StatusBar style='auto' backgroundColor='#006557'/>
       </View>
     </SafeAreaView>
