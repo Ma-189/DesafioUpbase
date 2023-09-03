@@ -3,8 +3,9 @@ import { StatusBar } from 'expo-status-bar';
 import { Header } from '@rneui/base/dist/Header/Header';
 import { StyleSheet, Text, View, SafeAreaView, TextInput, Pressable} from 'react-native';
 import CheckBox from 'expo-checkbox';
-import { useFonts, Montserrat_600SemiBold } from '@expo-google-fonts/montserrat';
+import { Montserrat_600SemiBold } from '@expo-google-fonts/montserrat';
 import { AppLoading } from 'expo-app-loading';
+import { useFonts } from 'expo-font';
 
 export default function App() {
   
@@ -121,6 +122,7 @@ const styles = StyleSheet.create({
     borderRadius: 3,
     paddingTop: 12,
     padding: 12,
+    textAlignVertical: 'top'
   },
 
   button: {
